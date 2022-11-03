@@ -16,13 +16,13 @@ rule detect_Lumma_stealer: Lumma
         
 
         $chunk_1 = {
-            C1 E8 ??          // shr eax, 0xd
-            33 C6             // xor eax, esi
-            69 C8 ?? ?? ?? ?? // imul ecx, eax, 0x5bd1e995
-            5F                // pop edi
-            5E                // pop esi
-            8B C1             // mov eax, ecx
-            C1 E8 ??          // shr eax, 0xf
+            C1 E8 ??          
+            33 C6             
+            69 C8 ?? ?? ?? ?? 
+            5F                
+            5E                
+            8B C1             
+            C1 E8 ??          
         }
         
 
