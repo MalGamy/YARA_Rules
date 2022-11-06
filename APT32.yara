@@ -38,18 +38,7 @@ rule detect_apt_APT32: APT32
         dec     [ebp+var_8]
 	*/
 
-        $chunk_1 = {
-			0F AF DE              
-			69 F6 ?? ?? ?? ??     
-			8B C2                 
-			83 E0 ??              
-			8D 44 85 ??           
-			31 18                 
-			42                    
-			FF 4D ??              
-		}
-        
-        
+        $chunk_1 = {0F AF DE 69 F6 ?? ?? ?? ?? 8B C2 83 E0 ?? 8D 44 85 ?? 31 18 42 FF 4D ??}   
 
     condition:
         uint16(0) == 0x5A4D and filesize > 174KB and ($pdb  or  (4 of ($s*) and $chunk_1 ))
