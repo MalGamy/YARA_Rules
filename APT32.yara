@@ -1,4 +1,4 @@
-rule detect_apt_APT32: APT32 
+rule detect_apt_APT29: APT29
 {
 	meta:
 	    description = "detect_APT32_malware"
@@ -19,13 +19,12 @@ rule detect_apt_APT32: APT32
         $pdb = "5\\bin\\bot.pdb" ascii
 
         $s1 = "pipe\\40DC244D-F62E-093E-8A91-736FF2FA2AA2" wide
-        $s2 = "LoginName" ascii
-		$s3 = "msicheck.cmd" ascii
-        $s4 = "select id, hostname, usernamefield, passwordfield, encryptedusern" wide
-        $s5 = "*temporary;*Cookies;*games;*system32;*program files;*\\windows\\;*\\System Volume Information" wide
-        $s6 = "msicheck.cmd" ascii
-        $s7 = "AppData\\Roaming\\Miranda"  wide 
-        $s8 = "Local Settings\\Application Data" wide
+        $s2 = "LoginName" ascii	
+        $s3 = "select id, hostname, usernamefield, passwordfield, encryptedusern" wide
+        $s4 = "*temporary;*Cookies;*games;*system32;*program files;*\\windows\\;*\\System Volume Information" wide
+        $s5 = "msicheck.cmd" ascii
+        $s6 = "AppData\\Roaming\\Miranda"  wide 
+        $s7 = "Local Settings\\Application Data" wide
 	
 	/*
 	imul    ebx, esi
@@ -41,7 +40,7 @@ rule detect_apt_APT32: APT32
         $chunk_1 = {0F AF DE 69 F6 ?? ?? ?? ?? 8B C2 83 E0 ?? 8D 44 85 ?? 31 18 42 FF 4D ??}   
 
     condition:
-        uint16(0) == 0x5A4D and filesize > 174KB and ($pdb  or  (4 of ($s*) and $chunk_1 ))
+        uint16(0) == 0x5A4D and filesize > 70KB and ($pdb  or  (4 of ($s*) and $chunk_1 ))
 }
 
 
