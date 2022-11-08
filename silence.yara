@@ -7,15 +7,16 @@ rule detect_silence_Downloader: silence Downloader
 
     strings:
 
-        $s1 = "MicrosoftUpdte" ascii
-        $s2 = "IntelSofts" ascii
-	$s3 = "php?name=" ascii
-        $s4 = "SoftWare\\Microsoft\\Windows\\CurrentVersion\\Run" ascii
-        $s5 = "ShellExecuteA" ascii
-        $s6 = "InternetOpenA" ascii
-        $s7 = "CreateFileA"  ascii 
-        $s8 = "CreateProcessA" ascii
+        $intel = "IntelSofts" ascii
+	
+	$s1 = "MicrosoftUpdte" ascii
+	$s2 = "php?name=" ascii
+        $s3 = "SoftWare\\Microsoft\\Windows\\CurrentVersion\\Run" ascii
+        $s4 = "ShellExecuteA" ascii
+        $s5 = "InternetOpenA" ascii
+        $s6 = "CreateFileA"  ascii 
+        $s7 = "CreateProcessA" ascii
         
     condition:
-        uint16(0) == 0x5A4D and (7 of ($s*))
+        uint16(0) == 0x5A4D and $intel or (6 of ($s*))
 }
