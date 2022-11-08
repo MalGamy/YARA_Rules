@@ -4,10 +4,9 @@ rule detect_silence_Downloader: silence Downloader
 	 description = "detect_silence_Downloader"
 	 author = "@malgamy12"
 	 date = "8/11/2022"
-	 sample1 = "4ea01c831c24b70b75bcdf9b33ad9c69e097cbadafd30599555a43a1f412455d"
-         sample2 = "6514742199e8fd5b6e09fcdf550706ecaab46cf8cd8da8550e3d5042a1bee127"
-         sample3 = "4fd37dc5eaa90a02a53b2c2df42c21e6017a925b65cedf62c69aa757be49e144"
-         sample4 = "8901d01bbf3aa2ced5fe2232493278ea56207ec6b0a9f17d8ba94b5095e28835"
+	 sample1 = "BAE2737C39C0DEF9603EF9E6CD4921BF641FAB91"
+         sample2 = "A7421FDA552316FD89FA545D1815DE0AF8EC2858"
+
 
     strings:
 
