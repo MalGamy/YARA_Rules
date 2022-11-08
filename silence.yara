@@ -9,7 +9,7 @@ rule detect_silence_Downloader: silence Downloader
 
         $s1 = "MicrosoftUpdte" ascii
         $s2 = "IntelSofts" ascii
-		$s3 = "php?name=" ascii
+	$s3 = "php?name=" ascii
         $s4 = "SoftWare\\Microsoft\\Windows\\CurrentVersion\\Run" ascii
         $s5 = "ShellExecuteA" ascii
         $s6 = "InternetOpenA" ascii
