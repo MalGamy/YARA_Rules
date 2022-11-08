@@ -23,6 +23,6 @@ rule Windows_Trojan_Formbook: FormBook_malware
         $a4 = { 80 E2 ?? F6 DA 1A D2 80 E2 ?? 80 C2 ?? }
 
     condition:
-         of them
+         3 of them
 }
 
