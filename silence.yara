@@ -1,9 +1,9 @@
 rule detect_silence_Downloader: silence Downloader 
 {
 	meta:
-		description = "detect_silence_Downloader"
-		author = "@malgamy12"
-		date = "2022-11-7"
+	 description = "detect_silence_Downloader"
+	 author = "@malgamy12"
+	 date = "2022-11-7"
 
     strings:
 
