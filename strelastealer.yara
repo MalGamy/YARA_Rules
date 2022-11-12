@@ -4,7 +4,7 @@ rule detect_StrelaStealer: StrelaStealer
 	description = "detect_StrelaStealer"
 	author = "@malgamy12"
 	date = "2022/11/12"
-        hash1 = "19b2144927bd071e30df9fce5f3d49f1"
+        hash = "6e8a3ffffd2f7a91f3f845b78dd90011feb80d30b4fe48cb174b629afa273403"
         
 
     strings:
