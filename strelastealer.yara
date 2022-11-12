@@ -1,9 +1,9 @@
 rule detect_StrelaStealer: StrelaStealer
 {
-	meta:
-		description = "detect_StrelaStealer"
-		author = "@malgamy12"
-		date = "2022/11/12"
+    meta:
+	description = "detect_StrelaStealer"
+	author = "@malgamy12"
+	date = "2022/11/12"
         hash1 = "19b2144927bd071e30df9fce5f3d49f1"
         
 
