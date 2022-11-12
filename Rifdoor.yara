@@ -1,9 +1,9 @@
 rule detect_rifdoor: rifdoor
 {
 	meta:
-		description = "detect_rifdoor"
-		author = "@malgamy12"
-		date = "11/11/2022"
+	description = "detect_rifdoor"
+	author = "@malgamy12"
+	date = "2022/11/11"
         hash1 = "19b2144927bd071e30df9fce5f3d49f1"
         hash2 = "d8ba4b4bfc5e0877fa8e8c1b26876ea6"
         hash3 = "d94d6f773c0ed5514d3e571e4b3681ba"
@@ -20,7 +20,7 @@ rule detect_rifdoor: rifdoor
 
         $s1 = "MUTEX394039_4830023" ascii
         $s2 = "CMD:%s %s %d/%d/%d %d:%d:%d" ascii
-		$s3 = "/c del /q \"%s\" >> NUL" ascii
+	$s3 = "/c del /q \"%s\" >> NUL" ascii
 
         $chunk_1 = {80 32 ?? 41 80 39 ?? 8B D1 75} // xor operation
 
