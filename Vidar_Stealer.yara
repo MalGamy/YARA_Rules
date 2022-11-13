@@ -14,8 +14,8 @@ rule detect_vidar: Vidar
         $a2 = "History\\%s_%s.txt" ascii
         $a3 = "Downloads\\%s_%s.txt" ascii
 
-        $b2 = "screenshot.jpg" ascii
-        $b3 = "Data\\*.dll" ascii
+        $b1 = "screenshot.jpg" ascii
+        $b2 = "Data\\*.dll" ascii
 
         $chunk_1 = {8B C8 33 D2 8B C5 F7 F1 8B 44 24 ?? 8B 4C 24 ?? [2] 8A 04 02 32 04 19 88 03}
     condition:
