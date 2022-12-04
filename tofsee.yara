@@ -1,9 +1,9 @@
 rule Detect_Tofsee: Tofsee
 {
     meta:
-	    description = "Detect_Tofsee"
-	    author = "@malgamy12"
-	    date = "21/11/2022"
+	description = "Detect_Tofsee"
+	author = "@malgamy12"
+	date = "21/11/2022"
         hash = "96baba74a907890b995f23c7db21568f7bfb5dbf417ed90ca311482b99702b72"
         
 
