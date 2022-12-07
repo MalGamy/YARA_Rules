@@ -1,9 +1,9 @@
 rule colibri_loader: colibri
 {
     meta:
-	    description = "Detect_colibri_loader"
-	    author = "@malgamy12"
-	    date = "7/12/2022"
+	description = "Detect_colibri_loader"
+	author = "@malgamy12"
+	date = "7/12/2022"
         hash= "59f5e517dc05a83d35f11c6682934497"
         hash= "7615231dd8463c48f9dc66b67da68f49"
         hash= "7f697936757ced404c2a7515ccfe426b"
