@@ -1,10 +1,10 @@
 rule Vohuk_ransomware: Vohuk
 {
     meta:
-	    description = "Detect_Vohuk_ransomware"
-	    author = "@malgamy12"
-	    date = "8/12/2022"
-        hash= "59f5e517dc05a83d35f11c6682934497"
+	description = "Detect_Vohuk_ransomware"
+	author = "@malgamy12"
+	date = "8/12/2022"
+        hash= "e27b637abe523503b19e6b57b95489ea"
   
                 
     strings:
