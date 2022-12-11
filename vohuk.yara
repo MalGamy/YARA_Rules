@@ -4,6 +4,7 @@ rule Vohuk_ransomware: Vohuk
 	description = "Detect_Vohuk_ransomware"
 	author = "@malgamy12"
 	date = "8/12/2022"
+	license = "DRL 1.1"
         hash= "e27b637abe523503b19e6b57b95489ea"
   
                 
