@@ -4,7 +4,7 @@ rule detect_catB: ransomware
 	description = "detect_CatB_ransomware"
 	author = "@malgamy12"
 	date = "2023/1/4"
-    hash = "35a273df61f4506cdb286ecc40415efaa5797379b16d44c240e3ca44714f945b"
+        hash = "35a273df61f4506cdb286ecc40415efaa5797379b16d44c240e3ca44714f945b"
         
 
     strings:
