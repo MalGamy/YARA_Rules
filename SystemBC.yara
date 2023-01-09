@@ -1,9 +1,9 @@
 rule SystemBC_malware: SystemBC 
 {
     meta:
-	    description = "Detect_SystemBC"
-	    author = "@malgamy12"
-	    date = "2023/1/9"
+	description = "Detect_SystemBC"
+	author = "@malgamy12"
+	date = "2023/1/9"
         license = "DRL 1.1"
         hash = "b369ed704c293b76452ee1bdd99a69bbb76b393a4a9d404e0b5df59a00cff074"
         hash = "0da6157c9b27d5a07ce34f32f899074dd5b06891d5323fbe28d5d34733bbdaf8"
