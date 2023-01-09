@@ -4,6 +4,7 @@ rule detect_silence_Downloader: silence Downloader
 	 description = "detect_silence_Downloader"
 	 author = "@malgamy12"
 	 date = "8/11/2022"
+	 license = "DRL 1.1"
 	 sample1 = "BAE2737C39C0DEF9603EF9E6CD4921BF641FAB91"
          sample2 = "A7421FDA552316FD89FA545D1815DE0AF8EC2858"
 
