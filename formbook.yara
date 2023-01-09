@@ -3,6 +3,7 @@ rule Windows_Trojan_Formbook: FormBook_malware
     meta:
         author = "@malgamy12"
         date = "2022-11-8"
+	license = "DRL 1.1"
         sample1 = "9fc57307d1cce6f6d8946a7dae41447b"
         sample2 = "0f4a7fa6e654b48c0334b8b88410eaed"
         sample3 = "0a25d588340300461738a677d0b53cd2"
