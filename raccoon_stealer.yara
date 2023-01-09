@@ -4,6 +4,7 @@ rule detect_Raccoon_Stealer_v2: Raccoon_Stealer_v2
 	description = "detect_Raccoon_Stealer_v2"
 	author = "@malgamy12"
 	date = "16/11/2022"
+	license = "DRL 1.1"
         hash = "0123b26df3c79bac0a3fda79072e36c159cfd1824ae3fd4b7f9dea9bda9c7909"
 	hash = "0c722728ca1a996bbb83455332fa27018158cef21ad35dc057191a0353960256"
 	hash = "048c0113233ddc1250c269c74c9c9b8e9ad3e4dae3533ff0412d02b06bdf4059"
