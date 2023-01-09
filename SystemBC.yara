@@ -23,7 +23,7 @@ rule SystemBC_malware: SystemBC
         hash = "4c9a783544c7f44fb3f058837f0d5723fdaabbeb22b58ce635667b3ba2c6e7d3"
         hash = "21adaf466ea988688d3e107a0f95237817189bce0b4f05d232f9d30b97bf68d4"
     strings:
-	    $s1 = "GET /tor/rendezvous2/%s HTTP" ascii
+	$s1 = "GET /tor/rendezvous2/%s HTTP" ascii
         $s2 = "https://api.ipify.org/"
         $s3 = "https://ip4.seeip.org/"
         $s4 = "directory-footer"
