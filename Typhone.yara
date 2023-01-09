@@ -4,6 +4,7 @@ rule detect_Typhon_Stealer: Typhon_Stealer
 	description = "detect_Typhon_Stealer"
 	author = "@malgamy12"
 	date = "15/11/2022"
+	license = "DRL 1.1"
         hash1 = "A12933AB47993F5B6D09BEC935163C7F077576A8B7B8362E397FE4F1CE4E791C"
         
 
