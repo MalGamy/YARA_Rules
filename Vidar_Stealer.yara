@@ -4,6 +4,7 @@ rule detect_vidar: Vidar
 	description = "detect_Vidar_Stealer"
 	author = "@malgamy12"
 	date = "11/13/2022"
+	license = "DRL 1.1"
         hash = "011e2fb7319d8962563dd48de0fec1400a20c9fdcc7ff0766fdea47959ab6805"
         
 
