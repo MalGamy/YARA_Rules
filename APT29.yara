@@ -4,6 +4,7 @@ rule detect_apt_APT29: APT29
 	    description = "detect_APT32_malware"
 	    author = "@malgamy12"
             date = "2022-11-6"
+	    license = "DRL 1.1"
 	    hash_sample1 = "93054d3abc36019ccfe88f87363363e6ca9b77f4"
             hash_sample2 = "0eadbd6ef9f5930257530ac5a3b8abb49c9755d1"
             hash_sample3 = "69c2d292179dc615bfe4d7f880b5f9928604558e"
