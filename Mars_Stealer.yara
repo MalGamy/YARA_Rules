@@ -4,6 +4,7 @@ rule detect_Mars_Stealer: Mars_Stealer
 	description = "detect_Mars_Stealer"
 	author = "@malgamy12"
 	date = "12/14/2022"
+	license = "DRL 1.1"
         comment = "frist op1 to detect old version with strings and (op2) to detect new version"
         old_version_hash = "7da3029263bfbb0699119a715ce22a3941cf8100428fd43c9e1e46bf436ca687"
         ne_version_hash = "0d6470143f1102dbeb8387ded8e73cedbc3aece7a3594255d46c9852f87ac12f"
