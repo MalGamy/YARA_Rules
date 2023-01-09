@@ -22,3 +22,4 @@ rule Detect_Tofsee: Tofsee
     condition:
         uint16(0) == 0x5A4D  and ((5 of ($a*) and $op))
 }
+
