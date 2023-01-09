@@ -1,9 +1,10 @@
 rule Shc_Downloader : Downloader
 {
     meta:
-	    description = "detect_Shc_Downloader"
-	    author = "@malgamy12"
-	    date = "2022/1/4"
+	description = "detect_Shc_Downloader"
+	author = "@malgamy12"
+        date = "2022/1/4"
+	license = "DRL 1.1"
         hash = "256ab7aa7b94c47ae6ad6ca8ebad7e2734ebaa21542934604eb7230143137342"
         
 
