@@ -4,6 +4,7 @@ rule cuba_ransomware: cuba
 	description = "Detect_cuba_ransomware"
 	author = "@malgamy12"
 	date = "24/11/2022"
+	license = "DRL 1.1"
         hash = "c2aad237b3f4c5a55df88ef26c25899fc4ec8170"
         hash = "4b41a1508f0f519396b7c14df161954f1c819e86"
         hash = "d5fe48b914c83711fe5313a4aaf1e8d80533543d"
