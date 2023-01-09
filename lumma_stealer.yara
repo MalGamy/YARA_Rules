@@ -4,6 +4,7 @@ rule detect_Lumma_stealer: Lumma
 		description = "detect_Lumma_stealer"
 		author = "@malgamy12"
 		date = "2022-11-3"
+		license = "DRL 1.1"
 		hunting = "https://www.hybrid-analysis.com/sample/f18d0cd673fd0bd3b071987b53b5f97391a56f6e4f0c309a6c1cee6160f671c0"
 		hash1 = "19b937654065f5ee8baee95026f6ea7466ee2322"
                 hash2 = "987f93e6fa93c0daa0ef2cf4a781ca53a02b65fe"
