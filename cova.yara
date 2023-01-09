@@ -1,9 +1,9 @@
 rule Cova_malware: Cova
 {
     meta:
-	    description = "Detect_Cova_malware"
-	    author = "@malgamy12"
-	    date = "2023/1/9"
+	description = "Detect_Cova_malware"
+	author = "@malgamy12"
+	date = "2023/1/9"
         license = "DRL 1.1"
         hash = "a1ae4a7440c7f2f0d03c6f2e05ff97b875e8295cf2b340b96fdda919af6c7eb5"
 
