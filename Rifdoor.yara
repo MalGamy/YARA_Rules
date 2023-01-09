@@ -4,6 +4,7 @@ rule detect_rifdoor: rifdoor
 	description = "detect_rifdoor"
 	author = "@malgamy12"
 	date = "2022/11/11"
+	license = "DRL 1.1"
         hash1 = "19b2144927bd071e30df9fce5f3d49f1"
         hash2 = "d8ba4b4bfc5e0877fa8e8c1b26876ea6"
         hash3 = "d94d6f773c0ed5514d3e571e4b3681ba"
