@@ -5,7 +5,7 @@ rule Detect_Mimic_Ransomware: Mimic Ransomware
         description = "Detect_Mimic_Ransomware"
         author = "@MalGamy12"
         date = "2023-01-27"
- l      icense = "DRL 1.1"
+        license = "DRL 1.1"
         hash = "08f8ae7f25949a742c7896cb76e37fb88c6a7a32398693ec6c2b3d9b488114be"
         hash = "136d05b5132adafc4c7616cd6902700de59f3f326c6931eb6b2f3b1f458c7457"
         hash = "1dea642abe3e27fd91c3db4e0293fb1f7510e14aed73e4ea36bf7299fd8e6506"
