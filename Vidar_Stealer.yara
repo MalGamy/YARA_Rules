@@ -11,9 +11,9 @@ rule detect_vidar: Vidar
     strings:
         $s1 = "*wallet*.dat" ascii
 
-        $a1 = "Autofill\\%s_%s.txt" ascii
-        $a2 = "History\\%s_%s.txt" ascii
-        $a3 = "Downloads\\%s_%s.txt" ascii
+        //$a1 = "Autofill\\%s_%s.txt" ascii
+        //$a2 = "History\\%s_%s.txt" ascii
+        //$a3 = "Downloads\\%s_%s.txt" ascii
 
         $b1 = "screenshot.jpg" ascii
         $b2 = "Data\\*.dll" ascii
